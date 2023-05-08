@@ -5,10 +5,10 @@ export default defineNuxtConfig({
         '@vueuse/nuxt',
     ],
     runtimeConfig: {
-        apiBaseUrl: '',
-        apiKey: '',
+        apiBaseUrl: process.env.NUXT_API_BASE_URL,
+        apiKey: process.env.NUXT_API_KEY,
         public: {
-            imgBaseUrl: '',
+            imgBaseUrl: process.env.NUXT_PUBLIC_IMG_BASE_URL,
         }
     }
 })

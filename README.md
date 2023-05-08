@@ -4,6 +4,10 @@ Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introdu
 
 Live Demp URL: https://nuxt3-movie-app.netlify.app/
 Steps to setup:
+
+*Movie API:
+*https://developer.themoviedb.org/docs/search-and-query-for-details
+
 *npx nuxi init nuxt-app-proj
 
 *cd nuxt-app-proj
